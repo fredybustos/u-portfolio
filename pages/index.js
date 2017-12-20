@@ -219,6 +219,7 @@ class Main extends Component {
         <NextHead>
           <title>Modifed React</title>
           <link href="../static/css/app.css" rel="stylesheet" />
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         </NextHead>
         <Header main={data.main}/>
         <About main={data.main}/>
